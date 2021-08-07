@@ -1,0 +1,30 @@
+body{
+    background-color: dodgerblue;
+    border: 25px ridge deepskyblue;
+}
+
+.btn_style{
+    color: dodgerblue;
+    background-color: deepskyblue;
+    width: fit-content;
+    padding: 15;
+    border-radius: 15px;
+    border:10px ridge dodgerblue;
+}
+
+.btn_style:hover{
+    color: deepskyblue;
+    background-color: dodgerblue;
+    border:10px ridge deepskyblue;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 20px 20px 15px red;}
+    to {box-shadow: -20px -20px 15px yellow;}
+}
